@@ -17,4 +17,5 @@ for i in range(0, len(c.events)):
     election = c.events[i].name
     date = c.events[i].begin.format("MMMM D")
 
+    #print([state, election, date])
     calwriter.writerow([state, election, date])
